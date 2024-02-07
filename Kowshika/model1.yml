@@ -1,0 +1,46 @@
+model1:
+  name: SimpleCNN
+  architecture:
+    layers:
+      - type: Conv2d
+        parameter: (3, 8,(3, 3), 1,1)
+      - type: BatchNorm2d
+        num_features: 8
+      - type: ReLU
+      - type: MaxPool2d
+        parameter: ((2,2), 2)
+      - type: Conv2d
+        parameter: (8, 16,(3, 3), 1,1)
+      - type: BatchNorm2d
+        num_features: 16
+      - type: ReLU
+      - type: MaxPool2d
+        parameter: ((2,2), 2)
+        - type: Conv2d
+        parameter: (16, 32,(3, 3), 1,1)
+      - type: BatchNorm2d
+        num_features: 32
+      - type: ReLU
+      - type: MaxPool2d
+        parameter: ((2,2), 2)
+      - type: Flatten
+      - type: Linear
+        parameter: (25088, 32)
+      - type: Tanh
+      - type: Dropout
+        p: 0.5
+      - type: Linear
+        parameter: (32, 32)
+      - type: Tanh
+      - type: Dropout
+        p: 0.5
+      - type: Linear
+        parameter: (32, 8)
+        - type: Tanh
+      - type: Linear
+        parameter: (8, 2)
+  loss_function: CrossEntropyLoss
+  optimizer:
+    type: RMSprop
+    learning_rate: 0.0001
+    weight_decay: 0.00001
