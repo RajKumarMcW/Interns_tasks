@@ -1,0 +1,1 @@
+{"snake_body": [[17, 25], [16, 25], [15, 25], [14, 25], [14, 24], [14, 23], [14, 22], [14, 21], [14, 20], [14, 19], [14, 18], [14, 17], [13, 17], [12, 17], [11, 17], [11, 16]], "direction": [1, 0], "eaten": true, "apple_pos": [8, 23], "speed": 0.5, "game_running": true, "FIELD_WIDTH": 32, "FIELD_HEIGHT": 20, "position_choice": 1, "difficulty_level": 1, "total_apples_eaten": 18}
