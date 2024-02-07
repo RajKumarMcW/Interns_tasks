@@ -1,0 +1,24 @@
+architecture:
+  model:
+    layers:
+      - in_channels: [3,16,32,50176,512]
+        out_channels: [16,32,64,512,2]
+        kernel_size: [3,2]
+        stride: [1,2]
+        padding: 1
+        convolution: 3
+        convolution_layers: [Conv2d,
+                              ReLU,
+                              MaxPool2d]
+        fully_connected_layers: [
+                                Flatten,
+                                Linear,
+                                ReLU,
+                                Linear]
+
+hyperparameters:
+  num_classes: 2
+optimizer:
+  type: Adam
+  learning_rate: 0.001
+  weight_decay: 0.01
