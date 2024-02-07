@@ -1,0 +1,9 @@
+model:
+  batch_size: 32
+  epoch: 15
+  activation_function: Tanh
+  loss_function: CrossEntropyLoss
+  optimizer:
+    type: RMSprop
+    learning_rate: 0.0005
+    weight_decay: 0.00001

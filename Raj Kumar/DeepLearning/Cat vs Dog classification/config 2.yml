@@ -1,0 +1,66 @@
+model:
+  name: SimpleCNN
+  type: classification
+  architecture:
+    layers:
+      - type: Conv2d
+        in_channels: 3
+        out_channels: 8
+        kernel_size: (3, 3)
+        stride: 1
+        padding: 1
+      - type: BatchNorm2d
+        num_features: 8
+      - type: ReLU
+      - type: MaxPool2d
+        kernel_size: (2, 2)
+        stride: 2
+      - type: Conv2d
+        in_channels: 8
+        out_channels: 16
+        kernel_size: (3, 3)
+        stride: 1
+        padding: 1
+      - type: BatchNorm2d
+        num_features: 16
+      - type: ReLU
+      - type: MaxPool2d
+        kernel_size: (2, 2)
+        stride: 2
+      - type: Conv2d
+        in_channels: 16
+        out_channels: 32
+        kernel_size: (3, 3)
+        stride: 1
+        padding: 1
+      - type: BatchNorm2d
+        num_features: 32
+      - type: ReLU
+      - type: MaxPool2d
+        kernel_size: (2, 2)
+        stride: 2
+      - type: Flatten
+      - type: Linear
+        in_features: 25088
+        out_features: 32
+      - type: Tanh
+      - type: Dropout
+        p: 0.5
+      - type: Linear
+        in_features: 32
+        out_features: 32
+      - type: Tanh
+      - type: Dropout
+        p: 0.5
+      - type: Linear
+        in_features: 32
+        out_features: 8
+      - type: Tanh
+      - type: Linear
+        in_features: 8
+        out_features: 2
+  loss_function: CrossEntropyLoss
+  optimizer:
+    type: RMSprop
+    learning_rate: 0.0001
+    weight_decay: 0.00001
