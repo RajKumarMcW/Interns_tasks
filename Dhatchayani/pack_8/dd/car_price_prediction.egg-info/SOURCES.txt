@@ -1,0 +1,17 @@
+LICENSE.txt
+setup.py
+car_dd/Taxi_price_linreg.py
+car_dd/__init__.py
+car_dd/avacado.py
+car_dd/car_price_predict.py
+car_dd/credit_car_spam.py
+car_dd/email_spam_classification.py
+car_dd/main.py
+car_dd/movies_hit_classification.py
+car_dd/online_retail_DBSCAN.py
+car_dd/preprocessing.py
+car_dd/rain_in_australia.py
+car_price_prediction.egg-info/PKG-INFO
+car_price_prediction.egg-info/SOURCES.txt
+car_price_prediction.egg-info/dependency_links.txt
+car_price_prediction.egg-info/top_level.txt

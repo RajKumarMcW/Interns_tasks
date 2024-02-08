@@ -1,0 +1,1 @@
+{"snake_body": [[12, 13], [12, 12]], "direction": [0, 1], "eaten": false, "apple_pos": [3, 8], "speed": 0.5, "game_running": true, "FIELD_WIDTH": 32, "FIELD_HEIGHT": 15, "position_choice": 1, "difficulty_level": 1, "total_apples_eaten": 1}
