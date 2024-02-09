@@ -4,7 +4,7 @@
 
 1) [Decision Tree](https://github.com/RajKumarMcW/Interns_tasks/blob/master/Dhamu%20Pradeep/Readme.md#decision-tree-using-wine-quality-dataset)
 2) [KNN Regression](https://github.com/RajKumarMcW/Interns_tasks/blob/master/Dhamu%20Pradeep/Readme.md#knn-regression-using-london-bike-sharing-dataset)
-3) Logistic Regression
+3) [Logistic Regression](https://github.com/RajKumarMcW/Interns_tasks/blob/master/Dhamu%20Pradeep/Readme.md#logistc-regression-using-flight-service-dataset)
 4) Ridge Regression
 5) Heart Failure
 
