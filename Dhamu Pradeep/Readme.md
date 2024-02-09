@@ -3,7 +3,7 @@
 ## Table of Contents
 
 1) [Decision Tree](https://github.com/RajKumarMcW/Interns_tasks/blob/master/Dhamu%20Pradeep/Readme.md#decision-tree-using-wine-quality-dataset)
-2) KNN Regression
+2) [KNN Regression](https://github.com/RajKumarMcW/Interns_tasks/blob/master/Dhamu%20Pradeep/Readme.md#knn-regression-using-london-bike-sharing-dataset)
 3) Logistic Regression
 4) Ridge Regression
 5) Heart Failure
