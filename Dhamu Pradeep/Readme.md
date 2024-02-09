@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1) Decision Tree
+1) [Decision Tree](https://github.com/RajKumarMcW/Interns_tasks/edit/master/Dhamu%20Pradeep/Readme.md#decision-tree-using-wine-quality-dataset)
 2) KNN Regression
 3) Logistic Regression
 4) Ridge Regression
